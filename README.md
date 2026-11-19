@@ -20,7 +20,10 @@ pip install -e ".[dev]"
 
 ## How it works
 
-<!-- 3-6 bullets: what it checks, computes or produces. -->
+- **Token Normalization:** Parses input token files (Tailwind JSON, CSS custom properties, or Style Dictionary formats) and converts color representations (HEX, RGB, HSL) into standard sRGB color objects with normalized keys.
+- **Figma Variables API Interaction:** Connects to the Figma REST API to fetch variable collections, local variable IDs, and current color values across specified files and modes.
+- **Diff Computation:** Compares local code tokens against remote Figma variables by matching variable names and computed hex values to identify additions, modifications, and drift.
+- **Bidirectional Syncing:** Emits HTTP update payloads to push local changes to Figma or generates formatted token files to update local codebases.
 
 ## Limitations
 
