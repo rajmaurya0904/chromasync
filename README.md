@@ -2,7 +2,7 @@
 
 **A zero-config CLI tool that synchronizes color design tokens (Tailwind, CSS variables, Style Dictionary) bidirectionally with Figma variables via API.**
 
-<!-- THE PROBLEM: 2-3 concrete lines on the annoying thing this removes. -->
+Design token drift happens silently when someone tweaks a hex code in Tailwind or CSS files without updating Figma, or vice versa, resulting in mismatched UIs and endless QA back-and-forth. Chromasync eliminates manual copy-pasting between codebase variables and Figma by automatically pushing and pulling color tokens via API in seconds.
 
 ## Example
 
