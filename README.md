@@ -27,7 +27,9 @@ pip install -e ".[dev]"
 
 ## Limitations
 
-<!-- Honest and short: what it does NOT do, known gaps. -->
+- **Color-only support:** Does not synchronize typography, spacing, shadows, or other non-color design tokens.
+- **Collection scoping rules:** Limited to flat or single-level variable collections; nested or cross-collection aliases in Figma are not fully resolved.
+- **API rate limits:** Subject to Figma REST API request throttling during large batch updates.
 
 ## Development
 
